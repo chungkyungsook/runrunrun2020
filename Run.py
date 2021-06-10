@@ -413,7 +413,6 @@ def quitgame():
 # Button2 클래스 캐릭터 선택을 위해 필요함
 class Button2:
     # global gamepad
-    # gamepad = pygame.display.set_mode((pad_width, pad_height))
     def __init__(self, img_in, x, y, width, height, img_act, x_act, y_act, id, action=None):
         mouse = pygame.mouse.get_pos()
         click = pygame.mouse.get_pressed()
